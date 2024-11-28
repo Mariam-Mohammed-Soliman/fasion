@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.btn{
+   border:2px solid rgb(25, 27, 82);
+   transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+   border:2px solid rgb(25, 27, 82);
+   background-color: rgb(25, 27, 82);
+   color:white;
+}
+
+/* *************************** */
+/* header */
+
+#navInfo .socialLinks li{
+    float: inline-end;
+    margin: 0 0.5rem;
+}
+#navInfo i {
+    color:rgb(25, 27, 82);
+}
+
+header .navbar li .nav-link{
+    color:white !important;
+}
+
+header .intro{
+    padding: 5rem 0;
+}
+header .intro .introText{
+    margin-top: 8rem;
+}
+
+header .intro .introText .h1{
+    font-size: 4rem;
+}
+
+/* *************************** */
+/* showingProduct */
+#showingProduct{
+}
+
+#showingProduct .card{
+    height: 20rem;
+    background: rgb(244, 240, 240);
+}
+#showingProduct .card .card-body{
+    position: absolute;
+}
+/* *************************** */
+/* banner */
+
+#banner1{
+    height: 20rem;
+    background: url(./img/banner.jpg);
+}
+#banner1 .introTextBanner{
+    padding: 5rem 0;
+    background-color: rgb(39, 39, 39,0.5);
+    height: inherit;
+}
+
+#banner2{
+    height: 20rem;
+    background: url(./img/banner2.jpg);
+
+}
+#banner2 .introTextBanner{
+    padding: 2rem 0;
+    background-color: rgb(39, 39, 39,0.5);
+    height: inherit;
+
+}
+/* *************************** */
+/* clothe */
+#clothe{
+    padding: 2rem 0;
+}
+#clothe .card{
+    height: 20rem;
+    border: none;
+    box-shadow: 1px 1px 2px;
+}
+
+/* *************************** */
+/* policy */
+#policy{
+padding:2rem 0 ;
+}
+#policy .policyInfo .h1{
+    color:rgb(25, 27, 82);
+}
+#policy.policyInfo p{
+    color:gray;
+}
+#policy .policyIcon .card{
+    border:none;
+}
+#policy .policyIcon i{
+    font-size: 5rem;
+    padding: 1rem;
+    color:rgb(25, 27, 82);
+
+}
+/* *************************** */
+/* footer */
+footer{
+    background: rgb(25, 27, 82);
+}
+footer h5{
+    padding: 1rem;
+}
+
+footer p{
+    cursor: pointer;
+}
+
+footer .socialLinks i{
+    color:white;
+}
